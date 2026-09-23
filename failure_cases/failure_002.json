@@ -1,0 +1,7 @@
+{
+  "name": "negative_amounts",
+  "type": "data_quality",
+  "description": "Source contains negative order amounts",
+  "expected_failure": "DataQualityError",
+  "spark_error_hint": "Found invalid orders with negative amount"
+}
