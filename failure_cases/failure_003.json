@@ -1,0 +1,7 @@
+{
+  "name": "orphan_dimension_records",
+  "type": "join_quality",
+  "description": "More than 10 percent of orders have no matching customer",
+  "expected_failure": "DataQualityError",
+  "spark_error_hint": "Too many unmatched customers"
+}
