@@ -1,10 +1,7 @@
 {
-  "job_name": "daily_orders_pipeline",
-  "run_id": "123456",
-  "task": "transform_orders",
-  "status": "FAILED",
-  "error_type": "AnalysisException",
-  "error_message": "UNRESOLVED_COLUMN: quantity",
-  "failed_operation": "calculate_revenue",
-  "timestamp": "2026-09-22T10:30:00Z"
+  "name": "schema_drift",
+  "type": "schema_failure",
+  "description": "Upstream changed customer_id from STRING to BIGINT",
+  "expected_failure": "SchemaValidationError",
+  "spark_error_hint": "customer_id must be STRING"
 }
