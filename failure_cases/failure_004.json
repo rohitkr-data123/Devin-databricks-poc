@@ -1,0 +1,7 @@
+{
+  "name": "timestamp_corruption",
+  "type": "data_corruption",
+  "description": "Upstream sends malformed timestamp strings",
+  "expected_failure": "DataQualityError",
+  "spark_error_hint": "Invalid aggregate rows because order_date is null"
+}
